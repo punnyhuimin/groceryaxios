@@ -8,6 +8,13 @@
             <PSIIndex></PSIIndex>
         
         </div>
+        <div id="chart">
+            <covid></covid>
+        
+        </div>
+        <div id="chart">
+            <mrt></mrt>
+        </div>
         
     </div>
 </template>
@@ -15,10 +22,12 @@
 <script>
 import axiosExample from '../axiosExample.js'
 import PSIIndex from '../PSIIndex.js'
+import covid from '../covid.js'
+import mrt from '../mrt.js'
 
 export default {
     components:{
-        axiosExample,PSIIndex
+        axiosExample,PSIIndex, covid, mrt
     }
     
 }
